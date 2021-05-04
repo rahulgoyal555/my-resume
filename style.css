@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.header1{
+    background-color: #343c57;
+    color: white;
+}
 
 .name {
     margin: 15px 0px;
     text-align: center;
-    color: blue;
+    color: white;
 }
 
 .main {
