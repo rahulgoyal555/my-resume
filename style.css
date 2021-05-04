@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    margin: 15px 0px;
+    text-align: center;
+    color: blue;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px;
+}
+
+.left {
+    width: 95%;
+    background-color: rgb(233, 233, 233);
+    border: 5px solid blue;
+    padding: 20px;
+}
+
+.right {
+    width: 95%;
+    padding: 20px;
+    background-color: rgb(233 , 233, 233);
+    border: 5px solid blue;
+}
+
+.about {
+    margin-left: 20px;
+}
+
+.about p {
+    font-size: 20px;
+    margin: 20px 0px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+}
+
+.about h2 {
+    color: blue;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact a{
+    padding: 6px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    /* background-color: red; */
+}
+
+.link {
+    padding: 0px 20px;
+}
+
+.education {
+    margin: 20px 0px 20px 20px;
+}
+
+.education h3,
+h4 {
+    margin: 20px 0px;
+}
+
+.education h4{
+    font-size: 20px;
+}
+
+.education h2 {
+    color: blue;
+}
+
+.language {
+    margin-left: 20px;
+    color: blue;
+}
+
+.language h3 {
+    border: 2px solid;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(194, 136, 241);
+}
+
+.ad {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.learning {
+    margin-left: 20px;
+}
+
+.learning h2 {
+    color: blue;
+
+}
+
+.learning li {
+    margin: 20px 20px;
+}
+
+.project {
+    margin-left: 20px;
+}
+
+.project a {
+    font-size: 20px;
+}
+
+.project h2 {
+    color: blue;
+}
+
+.project a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.project p {
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.interest {
+    margin-left: 20px;
+}
+
+.interest h2 {
+    font-weight: bold;
+    color: blue;
+}
+
+.interest li {
+    margin: 10px 20px;
+}
+
+.detail {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.detail p {
+    /* padding: 10px; */
+    /* margin: 10px; */
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.detail h2 {
+    color: blue;
+}
+
+@media screen and (max-width: 1000px) {
+    .main {
+        display: inline;
+    }
+}
