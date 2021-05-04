@@ -22,7 +22,6 @@
 .left {
     width: 95%;
     background-color: rgb(233, 233, 233);
-    border: 5px solid blue;
     padding: 20px;
 }
 
@@ -30,7 +29,6 @@
     width: 95%;
     padding: 20px;
     background-color: rgb(233 , 233, 233);
-    border: 5px solid blue;
 }
 
 .about {
